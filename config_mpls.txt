@@ -1,0 +1,35 @@
+vpn 180 
+name CLIENTE-1
+xconnect vlan 180 vc-type vlan
+neighbor 10.10.30.1 pwid 180 mplstype non-te
+no shutdown
+vpn 382 
+name CLIENTE-2
+xconnect vlan 382 vc-type vlan
+neighbor 10.10.30.6 pwid 382 mplstype non-te
+no shutdown
+vpn 1014 
+name CLIENTE-3
+xconnect vlan 1014 vc-type vlan
+neighbor 10.10.30.1 pwid 1014 mplstype non-te
+no shutdown
+vpn 1027 
+name CLIENTE-4
+xconnect vlan 1027 vc-type vlan
+neighbor 10.10.30.1 pwid 1027 mplstype non-te
+no shutdown
+vpn 1028 
+name CLIENTE-5
+xconnect vlan 1028 vc-type vlan
+neighbor 10.10.30.1 pwid 1028 mplstype non-te
+no shutdown
+vpn 1057 
+name CLIENTE-6
+xconnect vlan 1057 vc-type vlan
+neighbor 10.10.30.1 pwid 1057 mplstype non-te
+no shutdown
+vpn 1058 
+name CLIENTE-7
+xconnect vlan 1058 vc-type vlan
+neighbor 10.10.30.1 pwid 1058 mplstype non-te
+no shutdown

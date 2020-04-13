@@ -1,0 +1,28 @@
+interface vlan 180
+name CLIENTE-1
+set-member tagged ethernet 1/4
+!
+interface vlan 382
+name CLIENTE-2
+set-member tagged ethernet 1/4
+!
+interface vlan 1014
+name CLIENTE-3
+set-member untagged ethernet 1/1
+!
+interface vlan 1027
+name CLIENTE-4
+set-member tagged ethernet 1/28
+!
+interface vlan 1028
+name CLIENTE-5
+set-member untagged ethernet 1/2
+!
+interface vlan 1057
+name CLIENTE-6
+set-member tagged ethernet 1/3
+!
+interface vlan 1058
+name CLIENTE-7
+set-member tagged ethernet 1/4
+!
